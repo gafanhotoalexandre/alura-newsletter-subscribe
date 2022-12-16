@@ -7,16 +7,26 @@
     <title>Olá, Tailwind!</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body class="bg-gradient-to-r from-purple-400 to-blue-600">
-    <main class="bg-white flex flex-col justify-center items-center w-4/5 mx-auto my-40 p-12 opacity-50 shadow-2xl md:flex-row">
-        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
-
-        <h1 class="text-4xl font-black text-center lg:text-6xl">Olá, Tailwind CSS!</h1>
-
-        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+    <main class="flex flex-col justify-center items-center mx-auto my-40">
+        
+        <header class="mb-4">
+            <nav>
+                <ul class="flex flex-wrap gap-8">
+                    <li class="text-xl text-white hover:scale-110 transition-all"><a href="index.html">Início</a></li>
+                    <li class="text-xl text-white hover:scale-110 transition-all"><a href="newsletter.html">Inscreva-se</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="bg-white flex flex-col md:flex-row justify-center items-center p-12 opacity-50 shadow-2xl w-4/5">
+            <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+    
+            <h1 class="text-4xl font-black text-center lg:text-6xl">Olá, Tailwind CSS!</h1>
+    
+            <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+        </section>
     </main>
 
 </body>
-
 </html>
